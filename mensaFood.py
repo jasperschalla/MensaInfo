@@ -7,7 +7,7 @@ import json
 from git import Repo
 
 PATH_OF_GIT_REPO = '/home/pi/Documents/python/mymensa/.git'  
-COMMIT_MESSAGE = 'Update mensa data'
+COMMIT_MESSAGE = 'Update mensa data from raspberry pi'
 
 date_dict = {}
 
