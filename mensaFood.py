@@ -15,7 +15,7 @@ today = datetime.datetime.now()
 monday = today - datetime.timedelta(days = today.weekday())
 offset = datetime.timedelta(days=1)
 
-for weekdays in range(7):
+for weekdays in range(8):
     temp = monday + offset * weekdays
     date_dict[temp.strftime("%Y-%m-%d")] = {"weekday":temp.strftime("%a").lower()}
 
